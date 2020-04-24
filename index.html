@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>DICTIONARY</title>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="shortcut icon" href="img/icon.ico" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <section class="content">
+          <h1>DICTIONARY FOR <span>you</span></h1>
+          <div class="dictionary">
+            <div class="english-text">
+              <div class="english-text__item" id="english-text__item"></div>
+            </div>
+            <div class="russian-text">
+              <div class="russian-text__item" id="russian-text__item"></div>
+            </div>
+          </div>
+        </section>
+        <div class="buttons">
+          <div class="translate">translate</div>
+          <div class="next">NEXT</div>
+          <div class="repeat">repeat</div>
+        </div>
+      </div>
+      <div class="instruction">
+        <h2>инструкция</h2>
+        <h3>по применению данного словаря</h3>
+        <div class="instruction-items">
+          <form class="instruction-items-form" action="index.html" method="GET">
+            <textarea
+              name="textForTranslate"
+              class="instruction-items-form__textarea"
+              placeholder='"ПОЛЕ ДЛЯ ВВОДА ТЕКСТА"'
+            ></textarea>
+            <div class="instruction-items-form__button">
+              <button class="button__send" type="submit" value="send">
+                send
+              </button>
+              <button class="button__change" type="button" value="change">
+                change
+              </button>
+            </div>
+          </form>
+          <div class="instruction-items-text">
+            <div class="instruction-items-text__item">
+              <p>
+                Приложение <span>&quot;DICTIONARY FOR YOU&quot;</span> создано
+                для того, чтобы помочь Вам выучить иностранные слова быстро и
+                без траты времени на оформление бумажных карточек.
+              </p>
+              <p>
+                Всё, что от Вас требуется – это ввести в
+                <span>&quot;ПОЛЕ ДЛЯ ВВОДА ТЕКСТА&quot;</span> слова на
+                иностранном языке и их перевод через запятую. Пример: work,
+                работа, rain, дождь, coronavirus, коронавирус и т.д. Далее
+                нажмите на кнопку <span>&quot;SEND&quot;</span>. Готово, теперь
+                Вы можете начать тренировку.
+              </p>
+              <p>
+                1. Нажмите на кнопку <span>&quot;NEXT&quot;</span>. Вписанные
+                вами слова будут высвечиваться в рандомном порядке.
+              </p>
+              <p>
+                2. Для проверки на правильность перевода, нажмите на кнопку
+                <span>&quot;TRANSLATE&quot;</span>. Если Вы перевели слово
+                правильно, то можете перейти к следующем шагу, нажав на кнопку
+                &quot;NEXT&quot;, если нет, нажмите на кнопку
+                <span>&quot;REPEAT&quot;</span>, чтобы данное слово было
+                отправлено на повторное изучение.
+              </p>
+              <p>
+                3. Чтобы сменить вид перевода, к примеру, не с английского на
+                русский, а наоборот, Вам не нужно переписывать слова в обратном
+                порядке. Просто обновите страницу и нажмите на кнопку
+                <span>&quot;CHANGE&quot;</span>.
+              </p>
+              <p>Приятной и продуктивной тренировки!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
